@@ -1,6 +1,6 @@
-import AboutModule from './about'
+import AboutModule from './login'
 
-describe('About', () => {
+describe('Login', () => {
   let $rootScope, $state, $location, $componentController, $compile;
 
   beforeEach(window.module(AboutModule));
