@@ -3,18 +3,17 @@
 }
 
 .login-window {
-        width: 430px;
-        height: 330px;
-        background-color: rgb(245,245,245);
-        margin: 0 auto;
-        margin-top: 70px;
+    width: 430px;
+    height: 330px;
+    background-color: rgb(245,245,245);
+    margin: 0 auto;
+    margin-top: 70px;
+    
     img{
       position:absolute;
       margin-left: -75px;
       margin-top: 34px;
-      
     }
-    
     .login-block {
         position:relative;
         width: 380px;
@@ -40,7 +39,6 @@
             height: 30px;  
             font-size:15px;
             margin-top:13px;
-            
         }
         &__button{
             border:none;
@@ -59,7 +57,4 @@
             font-size:14px;
         }
     }
-    
-        
-    
 }
