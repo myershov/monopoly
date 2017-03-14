@@ -10,9 +10,9 @@
         <input type="radio" name="slides" id="point3">
 
         <div class="slider">
-                <div class="slides img1"><p>Low</p></div>
-                <div class="slides img2"><p>Medium</p></div>
-                <div class="slides img3"><p>High</p></div>
+                <div ng-click="$ctrl.low()" class="slides img1"><p>Low</p></div>
+                <div ng-click="$ctrl.medium()" class="slides img2"><p>Medium</p></div>
+                <div ng-click="$ctrl.high()" class="slides img3"><p>High</p></div>
         </div>
         <div class="control">
                 <label for="point1"></label>
@@ -20,7 +20,11 @@
                 <label for="point3"></label>
         </div>
     </div>
-    
+    <h2>
+    {{$ctrl.b.name}}<br>
+    {{$ctrl.b.money}}<br>
+    {{$ctrl.b.size}}<br>
+    {{$ctrl.b.nop}}<br>
+    </h2>
 </div>
-<!--<h1>{{ $ctrl.name }}</h1>-->
-
+<!--<h1>{{ $ctrl.name }}</h1>
