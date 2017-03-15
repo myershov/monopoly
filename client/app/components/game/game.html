@@ -1,15 +1,52 @@
 <navbar></navbar>
+<script src="https://yastatic.net/jquery/1.6.4/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    
+    $("#right1").click(function(){
+        alert('sdfsfsdfsdf');
+      $(".top__check").animate({"margin-left": "+=50px"}, "slow");
+      alert('sdfsfsdfsdf');
+    });
+
+    $("#left").click(function(){
+      $(".top__check").animate({"left": "-=50px"}, "slow");
+    });
+
+  });
+</script>
+
+
 <div class="mainclasswindow">
     <div class="top">
+        <span class="check"></span>
         <div class="top__block" ng-repeat="item in $ctrl.bloc">{{item.name}}</div>
     </div>
-    <div class="left">
-        <div class="left__block" ng-repeat="item in $ctrl.left">{{$ctrl.left.name}}</div>  
-    </div>
-    <div class="right">
-        <div class="right__block" ng-repeat="item in $ctrl.right">{{$ctrl.right.name}}</div>  
+    <div class="middle">
+        <div class="middle__left">
+            <div class="middle__left__block" ng-repeat="item in $ctrl.left">{{item.name}}</div>  
+        </div>
+        <div class="middle__centr">
+            <div class="middle__centr__logo">
+                <img src="img/logo-type.png">
+            </div>
+            <div class="middle__centr__button">
+                <button type="button" id="right1">Кинути кубик</button>
+                <button type="button">Купити</button>      
+                <button type="button">Покращити</button> 
+            </div>
+            <div class="middle__centr__input">
+                <input>
+                <input>
+                <input>
+                <input>
+            </div>
+        </div>
+        <div class="middle__right">
+            <div class="middle__right__block" ng-repeat="item in $ctrl.right">{{item.name}}</div>  
+        </div>
     </div>
     <div class="bottom">
-        <div class="bottom__block" ng-repeat="item in $ctrl.bottom">{{$ctrl.bottom.name}}</div>
+        <div class="bottom__block" ng-repeat="item in $ctrl.bottom">{{item.name}}</div>
     </div>
 </div>
