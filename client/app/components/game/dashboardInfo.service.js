@@ -81,43 +81,43 @@ const dashboard = {
         name: 'Movie',
         positionX: 210,
         positionY: 760,
-        vertical: true
+        isvertical: true
       },
       cell_16:{
         name: 'Movie2342',
         positionX: 260,
         positionY: 760,
-        vertical: true
+        isvertical: true
       },
       cell_17:{
         name: 'Movie234234',
         positionX: 310,
         positionY: 760,
-        vertical: true
+        isvertical: true
       },
       cell_18:{
         name: 'Movie123sdf',
         positionX: 360,
         positionY: 760,
-        vertical: true
+        isvertical: true
       },
       cell_19:{
         name: 'Moasdfsdfvie',
         positionX: 410,
         positionY: 760,
-        vertical: true
+        isvertical: true
       },
       cell_20:{
         name: 'Movisadf asdfa de',
         positionX: 460,
         positionY: 760,
-        vertical: true
+        isvertical: true
       },
       cell_21:{
         name: 'Moviasdf sdafe',
         positionX: 610,
         positionY: 760,
-        vertical: true
+        isvertical: true
       }
     },
     bottom: {
@@ -125,91 +125,91 @@ const dashboard = {
         name: 'Movie',
         positionX: 610,
         positionY: 610,
-        bottom: true
+        isbottom: true
       },
       cell_23:{
         name: 'Movie2342',
         positionX: 610,
         positionY: 560,
-        bottom: true
+        isbottom: true
       },
      cell_24: {
         name: 'Movie234234',
         positionX: 610,
         positionY: 510,
-        bottom: true
+        isbottom: true
       },
       cell_25:{
         name: 'Movie123sdf',
         positionX: 610,
         positionY: 460,
-        bottom: true
+        isbottom: true
       },
       cell_26:{
         name: 'Moasdfsdfvie',
         positionX: 610,
         positionY: 410,
-        bottom: true
+        isbottom: true
       },
       cell_27:{
         name: 'Movisadf asdfa de',
         positionX: 610,
         positionY: 360,
-        bottom: true
+        isbottom: true
       },
      cell_28: {
         name: 'Moviasdf sdafe',
         positionX: 610,
         positionY: 310,
-        bottom: true
+        isbottom: true
       },
       cell_29:{
         name: 'Moviasdf asd e',
         positionX: 610,
         positionY: 260,
-        bottom: true
+        isbottom: true
       },
       cell_30:{
         name: 'Movias dfa dfe',
         positionX: 610,
         positionY: 210,
-        bottom: true
+        isbottom: true
       },
       cell_31:{
         name: 'Moviasdfas df sa fde',
         positionX: 610,
         positionY: 160,
-        bottom: true
+        isbottom: true
       },
       cell_32:{
         name: 'Moviasdfas df sa fde',
         positionX: 610,
         positionY: 110,
-        bottom: true
+        isbottom: true
       },
       cell_33:{
         name: 'Moviasdfas df sa fde',
         positionX: 610,
         positionY: 60,
-        bottom: true
+        isbottom: true
       },
       cell_34:{
         name: 'Moviasdfas df sa fde',
         positionX: 610,
         positionY: 10,
-        bottom: true
+        isbottom: true
       },
       cell_35:{
         name: 'Moviasdfas df sa fde',
         positionX: 610,
         positionY: -140,
-        bottom: true
+        isbottom: true
       },
       cell_36:{
         name: 'Moviasdfas df sa fde',
         positionX: 460,
         positionY: -140,
-        bottom: true
+        isbottom: true
       }
     },
     left: {
@@ -217,43 +217,43 @@ const dashboard = {
         name: 'Movie',
         positionX: 410,
         positionY: -140,
-        left: true
+        isleft: true
       },
       cell_38:{
         name: 'Movie2342',
         positionX: 360,
         positionY: -140,
-        left: true
+        isleft: true
       },
       cell_39:{
         name: 'Movie234234',
         positionX: 310,
         positionY: -140,
-        left: true
+        isleft: true
       },
       cell_40:{
         name: 'Movie123sdf',
         positionX: 260,
         positionY: -140,
-        left: true
+        isleft: true
       },
       cell_41:{
         name: 'Moasdfsdfvie',
         positionX: 210,
         positionY: -140,
-        left: true
+        isleft: true
       },
       cell_42:{
         name: 'Movisadf asdfa de',
         positionX: 160,
         positionY: -140,
-        left: true
+        isleft: true
       },
       cell_43:{
         name: 'Moviasdf',
         positionX: 10,
         positionY: -140,
-        left: true
+        isleft: true
       }
     }
 };
