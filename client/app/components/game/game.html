@@ -1,7 +1,8 @@
 <navbar></navbar>
 <div class="mainclasswindow">
     <div class="top">
-        <span id="check"></span>
+        <span id="check0"></span>
+        <span id="check1"></span>
         <div class="top__block" ng-repeat="item in $ctrl.top">{{item.name}}</div>
     </div>
     <div class="middle">
@@ -13,8 +14,8 @@
                 <img src="img/logo-type.png">
             </div>
             <div class="middle__centr__button">
-                <button type="button" ng-click="$ctrl.changePlayerPosition()">Кинути кубик</button>
-                <button type="button">Купити</button>      
+                <button type="button" ng-click="$ctrl.changePlayerPosition(0)">Кинути кубик</button>
+                <button type="button" ng-click="$ctrl.changePlayerPosition(1)">Купити</button>      
                 <button type="button">Покращити</button> 
             </div>
             <div class="middle__centr__input">
@@ -32,16 +33,17 @@
         <div class="bottom__block" ng-repeat="item in $ctrl.bottom">{{item.name}}</div>
     </div>
 </div>
-{{$ctrl.c}}
-
 
 <style>
-    #check{
+    #check0,#check1{
         z-index:1;
         position: absolute;
-        background-image: url("../img/playCheaps/player_2.png"); 
         background-size: 30px auto;
         width: 30px;
         height: 30px;
+        margin-left: -140px;
+        margin-top: 10px;
     }
+    #check0{background-image: url("../img/playCheaps/player_0.png");}
+    #check1{background-image: url("../img/playCheaps/player_1.png");margin-top: 40px;}
 </style>
