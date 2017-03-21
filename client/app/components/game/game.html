@@ -14,8 +14,8 @@
                 <img src="img/logo-type.png">
             </div>
             <div class="middle__centr__button">
-                <button type="button" ng-click="$ctrl.changePlayerPosition(0)">Кинути кубик</button>
-                <button type="button" ng-click="$ctrl.changePlayerPosition(1)">Купити</button>      
+                <button type="button" ng-click="$ctrl.changePlayerPosition()">Кинути кубик</button>
+                <button type="button">Купити</button>      
                 <button type="button">Покращити</button> 
             </div>
             <div class="middle__centr__input">
@@ -33,6 +33,9 @@
         <div class="bottom__block" ng-repeat="item in $ctrl.bottom">{{item.name}}</div>
     </div>
 </div>
+User number...{{$ctrl.currentMoveOfPlayer}}<br>
+User 0 pos......{{$ctrl.currentPosition.player0}}<br>
+User 1 pos......{{$ctrl.currentPosition.player1}}<br>
 
 <style>
     #check0,#check1{
@@ -44,6 +47,11 @@
         margin-left: -140px;
         margin-top: 10px;
     }
-    #check0{background-image: url("../img/playCheaps/player_0.png");}
-    #check1{background-image: url("../img/playCheaps/player_1.png");margin-top: 40px;}
+    #check0{
+        background-image: url("../img/playCheaps/player_0.png");
+    }
+    #check1{
+        background-image: url("../img/playCheaps/player_1.png");
+        margin-top: 40px;
+    }
 </style>
